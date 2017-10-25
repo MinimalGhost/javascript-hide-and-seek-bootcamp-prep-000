@@ -20,7 +20,6 @@ function deepestChild() {
       return parseInt(divChild[i].innerHTML);
     }
   }
-  return parseInt(divChild[3].innerHTML, 10);
 }
 
 // function find(array, criteriaFn) {
