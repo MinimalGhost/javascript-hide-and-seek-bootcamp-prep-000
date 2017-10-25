@@ -18,5 +18,3 @@ function deepestChild() {
   if(!nodes.length) return false;
   return nodes[nodes.length-1];
 }
-
-deepestChild('grand-node', div);
