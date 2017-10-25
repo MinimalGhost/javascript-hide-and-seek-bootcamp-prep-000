@@ -13,8 +13,8 @@ function increaseRankBy(n) {
   }
 }
 
-function deepestChild(id, element) {
-  let deepBoys = document.querySelectorAll(`#${id}` `${element}`);
+function deepestChild() {
+  let deepBoys = document.querySelectorAll('grand-node div');
   if(!nodes.length) return false;
   return nodes[nodes.length-1];
 }
