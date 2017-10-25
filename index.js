@@ -17,7 +17,7 @@ function deepestChild() {
   const deepChild = document.getElementById('grand-node').querySelectorAll('div');
   let next = [];
   for (let i = 0; i < deepChild.length; i++) {
-    console.log(deepChild[i]);
+    return deepChild[i]
     // let current = deepChild[i];
     // if (!deepChild[i].innerHTML) {
     //   return deepChild[i].innerHTML;
